@@ -1,0 +1,129 @@
+.primary-bg {
+   width: 100%;
+   height: 100%;
+   background: url('../images/photo3.jpg') no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+}
+
+#head {
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 3.5em;
+color: #AE7B70;
+}
+
+#text {
+text-align: center;
+font-family: 'Zilla Slab', serif;
+font-size: 2em;
+color: #97AE70;
+}
+
+#container{
+width: 82%; 
+margin: 0 auto;
+
+}
+div.img {
+    margin: 6px;
+    padding: 6px;
+    border: 0px solid #ffffff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 0px solid #ffffff;
+    border-radius: 5px;
+}
+
+div.img a:hover img {
+    border: 2px solid #dddddd;
+    border-radius: 25px;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 0px;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.linebreak {
+margin-top:400px;
+display:block;
+}
+
+#container2{
+width: 80%; 
+margin: 0 auto;
+}
+
+.table1 {
+border: 0px; 
+width: 100%;
+align: center;
+cellspacing: 0; 
+cellpadding: 18; 
+background-color: #97AE70;
+text-align: center;
+border-radius: 5px;
+}
+
+.table2 {
+border: 0; 
+width: 100%;
+align: center;
+cellspacing: 12;
+cellpadding: 18;
+background-color: #AE7B70;
+border-radius: 5px;
+colspan: 2;
+}
+
+.table3 {
+border: 0;
+width: 100%; 
+cellpadding: 5;
+cellspacing: 0;
+table-align: centre;
+background-color: #FFFFFF;
+border-radius: 5px;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.mynavbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
